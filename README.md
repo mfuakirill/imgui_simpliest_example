@@ -2,6 +2,7 @@
 1. Работа в Powershell 7+ (рекомендую с [terminal](https://github.com/microsoft/terminal))
 2. Windows 10+ (рекомендовано)
 3. Установленный winget (рекомендовано)
+4. Работающий WSL/WSL2 (для скриптов .sh)
 
 ## 1. Установка зависимостей
 ### 1.1.1. Установка MSYS2
