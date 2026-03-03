@@ -8,7 +8,7 @@
 ### 1.1.1. Установка вручную
 Скачать с https://msys2.org/ и установить.
 Желательно указать папку по умолчанию.
-### 1.2. Установка через winget
+### 1.1.2. Установка через winget
 `winget install MSYS2.MSYS2`
 ### 1.3. Установка компилятора, cmake, make
 ```
@@ -50,6 +50,6 @@ backends/imgui_impl_glfw.cpp
 git clone git@github.com:mfuakirill/imgui_simpliest_example.git
 cd imgui_simpliest_example
 mkdir build && cd build
-cmake .. -G "MinGW Makefiles"
+cmake .. -G "MinGW Makefiles" -DCMAKE_C_COMPILER=C:/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/mingw64/bin/g++.exe
 mingw32-make.exe
 ```
