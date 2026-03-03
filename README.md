@@ -51,5 +51,5 @@ git clone git@github.com:mfuakirill/imgui_simpliest_example.git
 cd imgui_simpliest_example
 mkdir build && cd build
 cmake .. -G "MinGW Makefiles"
-make
+mingw32-make.exe
 ```
