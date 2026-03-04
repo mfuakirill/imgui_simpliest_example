@@ -26,7 +26,7 @@ make --version
 ```
 ### 1.5. Получение GLFW
 Скачать с https://www.glfw.org/download
-Положить куда-то в проект или в `C:\glfw\`
+Положить куда-то в проект или в `C:\GLFW\`
 ### 1.6. Получение ImGui (если нет в проекте `imgui`)
 Скачать релиз с https://github.com/ocornut/imgui/releases/
 Затем закинуть в папку проекта содержимое (файлы)
