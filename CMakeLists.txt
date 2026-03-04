@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(imgui_example_claude)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) # For autocompletitions
 
 # Path to your GLFW folder
 set(GLFW_DIR "C:/Users/user/Desktop/DEV/imgui_example/glfw-3.4.bin.WIN64/")
